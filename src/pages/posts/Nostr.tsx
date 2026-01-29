@@ -194,7 +194,7 @@ export const Nostr = () => {
               <li>
                 Genera tu clave en{' '}
                 <a 
-                  href="https://nostr.how/es/keys" 
+                  href="https://nstart.me/es" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-green-600 dark:text-green-400 underline"
