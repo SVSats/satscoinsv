@@ -199,7 +199,7 @@ export const Nostr = () => {
                   rel="noopener noreferrer"
                   className="text-green-600 dark:text-green-400 underline"
                 >
-                  nostr.how/keys
+                  crea un perfil Nostr
                 </a>
                 {' '}o en un cliente (¡guarda la nsec privada offline!)
               </li>
