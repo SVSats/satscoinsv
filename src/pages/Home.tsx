@@ -28,9 +28,9 @@ export const Home = () => {
             </Badge>
             
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              Aprende Bitcoin,{' '}
+             Empieza por tu,{' '}
               <span className="bg-gradient-to-r from-orange-500 to-amber-500 bg-clip-text text-transparent">
-                Reclama tu Libertad
+                libertad tecnológica
               </span>
             </h1>
             
