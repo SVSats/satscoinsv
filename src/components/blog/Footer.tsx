@@ -92,11 +92,10 @@ export const Footer = () => {
           <div className="flex items-center gap-4">
             <span className="text-sm text-muted-foreground flex items-center gap-1">
               <Zap className="w-4 h-4 text-amber-500" />
-              Puedes apoyar su desarrollo enviando algunos satoshis. 🙏
-              ⚡ LIGHTNING ADDRESSES:
-              📧 satscoinsv@blink.sv
-              📧 marvincha01@sats.mobi
-              Desarrollado con ❤️ en El Salvador 🇸🇻
+              Apoya el desarrollo con algunos satoshis:
+              ⚡ satscoinsv@blink.sv
+              ⚡ marvincha01@sats.mobi
+              Hecho con ❤️ en El Salvador 🇸🇻
             </span>
           </div>
         </div>
