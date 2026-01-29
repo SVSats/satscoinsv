@@ -15,7 +15,6 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setMounted(true);
     // Check localStorage first
     const savedTheme = localStorage.getItem('theme') as Theme | null;
     if (savedTheme) {
@@ -25,6 +24,7 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
       const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
       setThemeState(prefersDark ? 'dark' : 'light');
     }
+    setMounted(true);
   }, []);
 
   useEffect(() => {
@@ -42,11 +42,7 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     setThemeState(newTheme);
   };
 
-  // Prevent flash of wrong theme
-  if (!mounted) {
-    return <>{children}</>;
-  }
-
+  // IMPORTANTE: Siempre retornar el Provider, incluso si no está mounted
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme, setTheme }}>
       {children}
