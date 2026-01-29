@@ -4,10 +4,10 @@ export default function Footer() {
   const currentYear = new Date().getFullYear()
 
   return (
-    <motion.footer 
-      initial={{ opacity: 0 }} 
-      animate={{ opacity: 1 }} 
-      transition={{ delay: 0.6 }} 
+    <motion.footer
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: 0.6 }}
       className="border-t border-gray-200 bg-white/95 py-12 dark:border-gray-800 dark:bg-gray-900/95 mt-24"
     >
       <div className="mx-auto max-w-3xl px-4 text-center">
