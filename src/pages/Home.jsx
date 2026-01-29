@@ -75,21 +75,3 @@ export default function Home() {
     </div>
   )
 }
-```
-
----
-
-## 📝 **INSTRUCCIONES PARA REEMPLAZAR**
-
-### Opción 1: En GitHub (Más Rápido)
-
-1. Ve a tu repo: https://github.com/SVSats/satscoin-blog
-2. Navega a `src/pages/Home.jsx`
-3. Haz clic en el **lápiz** (Edit)
-4. **Selecciona TODO el contenido** (Ctrl+A)
-5. **Borra TODO**
-6. **Pega el código que te mostré arriba**
-7. Desplázate al final
-8. En **"Commit changes"**, escribe:
-```
-   fix: reemplazar Home.jsx con versión correcta sin errores
