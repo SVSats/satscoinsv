@@ -1,0 +1,16 @@
+name = "satscoin-blog"
+type = "javascript"
+compatibility_date = "2026-01-29"
+
+[build]
+command = "npm run build"
+cwd = "./"
+
+[env.production]
+routes = [{ pattern = "*", zone_id = "" }]
+
+[[env.production.kv_namespaces]]
+binding = "KV"
+
+[site]
+bucket = "./dist"
